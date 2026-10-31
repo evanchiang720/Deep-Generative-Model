@@ -41,3 +41,24 @@ Samples generated from random prior noise $z \sim \mathcal{N}(0, I)$:
 
 ```bash
 pip install torch torchvision pytorch-ignite matplotlib pillow
+```
+
+### 2. Dataset Setup
+Download the dataset from [Kaggle](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia) and extract it to the project root:
+```text
+chest_xray/
+  train/
+    NORMAL/
+    PNEUMONIA/
+```
+
+### 3. Training & Evaluation
+Run the main script to train the model, save the loss curve, generate sample images, and compute the evaluation metrics:
+```bash
+python vae.py
+```
+
+## Author
+* Chia-Tung Chiang (chc302@ucsd.edu)
+* Student ID: 200479066
+```

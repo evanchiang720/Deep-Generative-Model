@@ -24,7 +24,7 @@ The model consists of a symmetric convolutional Encoder and transposed convoluti
 Evaluated using `pytorch-ignite` with Inception-V3 on the training set.
 
 ### Training Loss Curve
-![Loss Curve](loss_curve.png)
+![Loss Curve](training_loss.png)
 
 ### Generated Samples
 Samples generated from random prior noise $z \sim \mathcal{N}(0, I)$:
@@ -61,4 +61,3 @@ python vae.py
 ## Author
 * Chia-Tung Chiang (chc302@ucsd.edu)
 * Student ID: 200479066
-```
